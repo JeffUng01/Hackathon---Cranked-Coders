@@ -1,5 +1,5 @@
 .topnav {
-    background-color: #333;
+    background-color: rgb(43, 43, 184);
     overflow: hidden;
   }
   
@@ -22,15 +22,81 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #db180a;
+    background-color: rgb(17, 6, 85);
     color: white;
   }
 
   .header {
-    padding: 5px;
+    padding: 1px;
     text-align: center;
     background:  #db180a;
     color: white;
     font-size: 30px;
   }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
   
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 50%;
+  padding: 40px;
+  /*right: 50px;*/
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  right: -366px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 165%; /* Full width */
+  padding: 20px; /* Some padding */
+  transform: translate(0%, 10%);
+}
+
+/* image */
+.image {
+  flex-basis: 40%;
+  opacity: .5;
+}
+
+/* Text to Right */
+.right {
+  font-size: 20px;
+  top: 10%;
+  left: 0%;
+}
