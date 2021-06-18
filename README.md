@@ -1,5 +1,4 @@
 # Hackathon---Cranked-Coders
 
 This is gonna be gas!
-Hope yall work hard af
-gangshit!
+Hope yall work hard af!
